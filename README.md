@@ -11,6 +11,5 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 The root page lies in `pages/index.js`. The page auto-updates as you edit the file.
-
-## Where's the code?
+The code for the rest of the pages can be found in `about-me.js`,  `photography.js`, and `contact.js` in the `pages/posts` folder.
 
