@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: black;
 }
 
 a {
@@ -13,4 +14,40 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.name {
+  display: block;
+  margin: 10px;
+  font-size: 8vw;
+  font: Helvetic Neue;
+  font-weight: bold;
+  color: #2b0000;
+}
+
+.nav {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 2vw;
+  font: Helvetic Neue;
+  font-weight: bold;
+  color: #bfbfbf;
+}
+
+.text {
+  color: white;
+}
+
+#portrait-div {
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
 }
